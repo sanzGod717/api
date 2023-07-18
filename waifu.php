@@ -73,7 +73,7 @@ if (isset($inv) && is_array($inv) && array_key_exists('artist', $inv) && is_arra
     <p>developed by: sanzGod717 <br>
       work artist: <br> <span class="autor">
       <?php 
-    if($art){
+    if(isset($art)){
       echo $art;
     }else {
       echo "unknown author";
